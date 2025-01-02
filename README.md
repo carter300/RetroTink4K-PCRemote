@@ -8,8 +8,11 @@ Der Retrotink muss via USB-C Kabel mit dem PC Verbunden sein und im Gerätemanag
 
 Setup:
 Im Skript müssen folgende Variabeln eingestellt werden:
-$com = "10"            # COM-Port-Nummer (z. B. "1" für COM1) - Der Com des Retrotinks. Das Gerät im Gerätemanager heisst: "USB Serial Port"
+
+\$com = "10"            # COM-Port-Nummer (z. B. "1" für COM1) - Der Com des Retrotinks. Das Gerät im Gerätemanager heisst: "USB Serial Port"
+
 $baud = "115200"        # Baudrate (115200 für den Retrotink 4K)
+
 $serialSendPath = "O:\Retrotink\SerialSend.exe" # Pfad zur SerialSend.exe lokal auf euren PC.
 
 Nutzung aus der Powershell:
