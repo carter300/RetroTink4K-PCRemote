@@ -18,7 +18,7 @@ $serialSendPath = "O:\Retrotink\SerialSend.exe" # Pfad zur SerialSend.exe lokal 
 Nutzung aus der Powershell:
 .\RT4KRemoteSerial.ps1 -Eingabe "down"
 
-Das Skript setzt automatisch das notwendige "remote" als Prefix und ein "\n" als Postfix um die Eingabe.
+Das Skript setzt automatisch das notwendige "remote" als Prefix und ein "\n" als Postfix um die Eingabe herum.
 Das Skript prüft  ob die Eingabe einem der gültigen Retroink4K Befehle entspricht.
 
 In Kombination mit einem StreamDeck (https://www.elgato.com/) oder ähnliches kann das Skript via Shortcuts ausgeführt werden.
