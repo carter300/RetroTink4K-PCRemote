@@ -30,6 +30,7 @@ https://consolemods.org/wiki/AV:RetroTINK-4K#USB_Serial_Configuration
 
 Entwickelt auf Basis der Retrotink4K Firmware v.1.6.9 (https://retrotink-llc.github.io/firmware/4k.html)
 
+Bilder dazu hier im X Post: https://x.com/Carter_ccc/status/1874864322662572526
 
 ENGLISH (deepl)
 
@@ -61,3 +62,7 @@ The Retroinks4K commands can be found in the documentation:
 https://consolemods.org/wiki/AV:RetroTINK-4K#USB_Serial_Configuration
 
 Developed on the basis of Retrotink4K firmware v.1.6.9 (https://retrotink-llc.github.io/firmware/4k.html)
+
+Pics here on my X post: https://x.com/Carter_ccc/status/1874864322662572526
+
+
