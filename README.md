@@ -48,14 +48,14 @@ $baud = ‘115200’ # Baud rate (115200 for the Retrotink 4K)
 $serialSendPath = ‘O:\Retrotink\SerialSend.exe’ # Path to SerialSend.exe locally on your PC.
 
 Use from the Powershell:
-.\RT4KRemoteSerial.ps1 -Eingabe ‘down’
+.\RT4KRemoteSerial.ps1 -Eingabe "down"
 
 The script automatically places the necessary ‘remote’ as a prefix and a ‘\n’ as a postfix around the input.
 The script checks whether the input corresponds to one of the valid Retroink4K commands.
 
 In combination with a StreamDeck (https://www.elgato.com/) or similar, the script can be executed via shortcuts.
 There is a plugin for the StreamDeck called ‘WindowsScriptDeck’. This can then be used to control the script on individual buttons:
-e.g: O:\Retrotink\RT4KRemoteSerial.ps1 -Eingabe ‘menu’
+e.g: O:\Retrotink\RT4KRemoteSerial.ps1 -Eingabe "menu"
 
 The Retroinks4K commands can be found in the documentation:
 https://consolemods.org/wiki/AV:RetroTINK-4K#USB_Serial_Configuration
