@@ -29,3 +29,34 @@ Die Befehle des Retroinks4K gehen aus der Dokumenations hervor:
 https://consolemods.org/wiki/AV:RetroTINK-4K#USB_Serial_Configuration
 
 Entwickelt auf Basis der Retrotink4K Firmware v.1.6.9 (https://retrotink-llc.github.io/firmware/4k.html)
+
+
+ENGLISH (deepl)
+A Powershell script to control the Retrotink4K via USB from the PC
+
+With this script you can send the commands of a Retrotink4K via USB/Serial using PowerShell. The SerialSend.exe programme is required for this. https://batchloaf.wordpress.com/serialsend/
+
+The Retrotink must be connected to the PC via USB-C cable and recognised in the device manager.
+
+Setup: The following variables must be set in the script:
+
+$com = ‘10’ # COM port number (e.g. ‘1’ for COM1) - The Com of the Retrotink. The device in the device manager is called: ‘USB Serial Port’
+
+$baud = ‘115200’ # Baud rate (115200 for the Retrotink 4K)
+
+$serialSendPath = ‘O:\Retrotink\SerialSend.exe’ # Path to SerialSend.exe locally on your PC.
+
+Use from the Powershell:
+.\RT4KRemoteSerial.ps1 -Eingabe ‘down’
+
+The script automatically places the necessary ‘remote’ as a prefix and a ‘\n’ as a postfix around the input.
+The script checks whether the input corresponds to one of the valid Retroink4K commands.
+
+In combination with a StreamDeck (https://www.elgato.com/) or similar, the script can be executed via shortcuts.
+There is a plugin for the StreamDeck called ‘WindowsScriptDeck’. This can then be used to control the script on individual buttons:
+e.g: O:\Retrotink\RT4KRemoteSerial.ps1 -Eingabe ‘menu’
+
+The Retroinks4K commands can be found in the documentation:
+https://consolemods.org/wiki/AV:RetroTINK-4K#USB_Serial_Configuration
+
+Developed on the basis of Retrotink4K firmware v.1.6.9 (https://retrotink-llc.github.io/firmware/4k.html)
