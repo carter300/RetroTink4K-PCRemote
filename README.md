@@ -32,6 +32,7 @@ Entwickelt auf Basis der Retrotink4K Firmware v.1.6.9 (https://retrotink-llc.git
 
 
 ENGLISH (deepl)
+
 A Powershell script to control the Retrotink4K via USB from the PC
 
 With this script you can send the commands of a Retrotink4K via USB/Serial using PowerShell. The SerialSend.exe programme is required for this. https://batchloaf.wordpress.com/serialsend/
